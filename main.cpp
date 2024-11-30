@@ -12,7 +12,7 @@ int userid;
 void menu();
 void regist();
 void login();
-void postlogin();
+void postlogin(); // add your required functions from this function onward
 
 // MAIN
 int main()
@@ -118,7 +118,7 @@ checked:
         system("cls");
         cout << "\n\n\t\t\t|   YOU HAVE SUCCESSFULLY LOGGED IN             |";
         postlogin();
-    }
+    } 
 
     else
     {
@@ -130,5 +130,5 @@ checked:
 
 void postlogin()
 {
-    cout << "\n\n\n\t\t\t|      LOGGED IN      |";
+    cout << "\n\n\n\t\t\t|      LOGGED IN      |" << endl;
 }
